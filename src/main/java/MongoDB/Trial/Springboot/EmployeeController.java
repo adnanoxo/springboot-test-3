@@ -22,4 +22,10 @@ public String hellomongo() {
 		
 		return "Employee saved successfully by us";
 }
+
+@RequestMapping("/newtest")
+public String newtest() {
+	return "This is a new test";
+}
+
 }
